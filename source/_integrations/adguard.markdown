@@ -38,7 +38,7 @@ This integration provides sensors for the following information from AdGuard Hom
 
 ## Switches
 
-The integration will create a number of switches:
+The integration will create a number of global control switches:
 
 - AdGuard Protection (master switch).
 - Filtering.
@@ -46,6 +46,13 @@ The integration will create a number of switches:
 - Parental Control.
 - Safe Search.
 - Query Log.
+
+As well as for each client configured in AdGuardHome the following client specific switches:
+
+- Filtering.
+- Safe Browsing.
+- Safe Search.
+- Parental Control.
 
 These switches allow you to automate things easily. For example, one could
 write an automation to turn off Safe Search after the kids' bedtime.
